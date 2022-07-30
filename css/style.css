@@ -1,3 +1,36 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(255, 158, 158);
+
+}
+
+
+.main-nav__item{
+    display: inline-block
+}
+
+
+.main-nav__item a{
+    color:rgb(67, 88, 107);
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color:blue
+}
+
+.main-nav__item a:active{
+    color:rgb(118, 19, 163)
+}
+
+.main-nav__item a::after{
+    color:rgb(131, 6, 83)
+}
+
 h1 {
     background-color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,7 +40,7 @@ h1 {
 
 #tituloPaginaPrincipal
 {
-    background-color: red;
+    background-color: rgb(59, 0, 107);
     color: aqua;
 }
 
