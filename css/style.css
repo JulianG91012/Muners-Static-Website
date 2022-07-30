@@ -1,6 +1,23 @@
 h1 {
-
+    background-color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: white;
 
 }
+
+#tituloPaginaPrincipal
+{
+    background-color: red;
+    color: aqua;
+}
+
+/*Selectores-ID: #
+#nombreID{
+
+}
+
+Clases:
+ .imagenes {
+    size: 50%;
+} 
+*/
