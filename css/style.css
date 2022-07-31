@@ -11,14 +11,17 @@ main{
     padding: 20px 35px;
 }
 
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
 
 .main-nav{
     margin-top: 10px;
     list-style: none;
     padding-left: 0px;
-    background-color: rgb(255, 158, 158);
+    background-color: rgb(255, 255, 255);
 }
-
 
 .main-nav__item{
     display: inline-block
@@ -26,7 +29,8 @@ main{
 
 
 .main-nav__item a{
-    color:rgb(67, 88, 107);
+    color:rgb(233, 176, 255);
+    background-color: rgb(9, 2, 75);
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
@@ -34,20 +38,23 @@ main{
 
 
 .main-nav__item a:hover{
-    color:blue
+    color:rgb(255, 31, 143)
 }
 
 
 .main-nav__item a:active{
-    color:rgb(118, 19, 163)
+    color:rgb(255, 255, 255)
 }
 
 
 .main-nav__item a::after{
-    color:rgb(131, 6, 83)
+    color:rgb(247, 82, 183)
 }
 
-
+#titulo2{
+    color: blue;
+    font-family: sans-serif;
+}
 
 
 /*Selectores-ID: #
