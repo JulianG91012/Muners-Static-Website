@@ -1,5 +1,5 @@
 /* VARIABLES CSS */ 
-root{
+:root{
     /* COLORES */
     --carolina-blue: #00A8E8;
     --Celadon-blue: #007EA7;
@@ -20,19 +20,42 @@ root{
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-
-.header-nav {
-    padding-bottom: 20px;
-    /* margin-bottom: 20px; */
-    background-color: rgb(9, 2, 75);
-    /* text-align: right; */
+header{
+    display: grid;
+    grid-template-columns: 15% auto 80%;
+    grid-template-rows: 130px;
+    background-color: var(--purssian-blue);
 }
-
-.header-nav__img{
-    padding-right: 450px;
+.header__img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100px;
+    padding: 10px;
+    margin-left: 10px;
+}
+header nav{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
     
 }
+.header-nav__item{
+    text-decoration: none;
+    color: var(--white);
+    
+}
+
+/*
+
 
 main{
     width: 100%;
@@ -97,7 +120,7 @@ li {
     border-radius: 28%;
     width: 100px;
 }
-
+*/
 /*Selectores-ID: #
 #nombreID{
 
