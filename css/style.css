@@ -23,6 +23,10 @@ main{
     padding: 20px 35px;
 }
 
+li {
+    list-style-type: style disc;
+}
+
 .title{
     font-size: 18px;
     font-family: monospace;
@@ -69,6 +73,11 @@ main{
 
 .seccion-Principal__txt{
     font-family:monospace;
+}
+
+.imagenes {
+    border-radius: 28%;
+    width: 100px;
 }
 
 /*Selectores-ID: #
