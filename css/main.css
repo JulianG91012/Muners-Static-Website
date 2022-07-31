@@ -61,6 +61,11 @@ header nav ul li{
 header nav ul li:hover{
     background-color: var(--carolina-blue);
     border-color: var(--white);
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+header nav ul li:not(:hover){
+    transition-duration: 400ms;
 }
 .header-nav__item{
     text-decoration: none;
